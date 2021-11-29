@@ -1,0 +1,41 @@
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <link rel="stylesheet" href="styles.css">
+      <title>Git Practice Page</title>
+  </head>
+  <body>
+    <h1>Git Practice Repository</h1>
+    <ul>
+      <li>Repository: <a href="https://github.com/cotarr/git-practice-only">https://github.com/cotarr/git-practice-only</a></li>
+      <li>Version: 0.0.1 (should match package.json)</li>
+    </ul>
+    <h2>Forced Merge conflict</h2>
+    <p>
+      Case of two different pull requests, each pull request 
+      has completely different content within this div.
+    </p>
+    <div class="text-div">
+      This is some text to be replaced (both owner and contributer).
+    </div>
+
+    <h2>Concurrent No Conflict Merge</h2>
+    <p>Owner modifies this div</p>
+    <div class="text-div">
+      Owner content sentence here. 
+    </div>
+    <p>Contributer modifies this div</p>
+    <div class="text-div">
+      Contributer content in this div.
+    </div>
+
+    <h2>Simple Fast Forward Edit</h2>
+    <p>Append new lines without modify previous.</p>
+    <div class="text-div">
+      This is line number 1.<br>
+      This is line number 2.<br>
+      This is line number 3.<br>
+    </div>
+  </body>
+</html>
