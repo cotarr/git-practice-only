@@ -1,6 +1,6 @@
 {
   "name": "git-practice-only",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Temporary repository to practice using git cli and github.",
   "main": "html/index.html",
   "scripts": {
